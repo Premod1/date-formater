@@ -43,3 +43,7 @@ console.log(formatTimeToHHMMSS(dateInput));   // Output: 00:00:00
 
 - `formatTimeToHHMMSS(input)`
   - Extracts the time in the HH:mm:ss format from the input date.
+
+## License
+
+This project is licensed under the ISC License. See the [LICENSE](LICENSE) file for details.
