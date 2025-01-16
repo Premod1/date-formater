@@ -1,4 +1,4 @@
-// Function to parse and validate the input date
+
 function parseDate(input) {
   const date = new Date(input);
 
@@ -45,14 +45,6 @@ function formatTimeToHHMMSS(input) {
   return `${hours}:${minutes}:${seconds}`;
 }
 
-// Example Usage
-const dateInput = "2025-01-16"; // You can test with other formats like "Jan 16, 2025" or a timestamp
-console.log(formatDateToYYYYMMDD(dateInput)); // Output: 2025-01-16
-console.log(formatDateToMMDDYYYY(dateInput)); // Output: 01/16/2025
-console.log(formatDateToDDMMYYYY(dateInput)); // Output: 16-01-2025
-console.log(formatTimeToHHMMSS(dateInput));   // Output: 00:00:00
-
-// Export all functions
 module.exports = {
   formatDateToYYYYMMDD,
   formatDateToMMDDYYYY,
