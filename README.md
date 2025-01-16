@@ -30,15 +30,16 @@ console.log(formatDateToDDMMYYYY(dateInput)); // Output: 16-01-2025
 console.log(formatTimeToHHMMSS(dateInput));   // Output: 00:00:00
 ```
 
-Available Functions
-formatDateToYYYYMMDD(input)
-Formats the input date to the YYYY-MM-DD format.
+## Available Functions
 
-formatDateToMMDDYYYY(input)
-Formats the input date to the MM/DD/YYYY format.
+- `formatDateToYYYYMMDD(input)`
+  - Formats the input date to the YYYY-MM-DD format.
 
-formatDateToDDMMYYYY(input)
-Formats the input date to the DD-MM-YYYY format.
+- `formatDateToMMDDYYYY(input)`
+  - Formats the input date to the MM/DD/YYYY format.
 
-formatTimeToHHMMSS(input)
-Extracts the time in the HH:mm:ss format from the input date.
+- `formatDateToDDMMYYYY(input)`
+  - Formats the input date to the DD-MM-YYYY format.
+
+- `formatTimeToHHMMSS(input)`
+  - Extracts the time in the HH:mm:ss format from the input date.
