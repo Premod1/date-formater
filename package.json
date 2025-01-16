@@ -1,0 +1,11 @@
+{
+  "name": "psdate-formater",
+  "version": "1.0.0",
+  "description": "A set of date utility functions for different formats",
+  "main": "dateUtils.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "premod",
+  "license": "ISC"
+}
